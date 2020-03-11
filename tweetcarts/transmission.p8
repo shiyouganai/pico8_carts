@@ -13,14 +13,15 @@ cls(0)
 pset(63, 63, 8)
 gen_map[63*128 + 63 + 1] = gen
 ::_::
-if (frame_count % 10 == 0) then
+if (frame_count % 8 == 0) then
     for x = 0, 127 do
         for y = 0, 127 do
-            if pget(x, y) == color and gen_map[x*128 + y + 1] == gen then
-                if pget(x-1, y) == 0 then if rnd(100) > 50 then pset(x-1, y, color_next) gen_map[(x - 1)*128 + y + 1] = gen_next end end
-                if pget(x+1, y) == 0 then if rnd(100) > 50 then pset(x+1, y, color_next) gen_map[(x + 1)*128 + y + 1] = gen_next end end
-                if pget(x, y-1) == 0 then if rnd(100) > 50 then pset(x, y-1, color_next) gen_map[x*128 + y] = gen_next end end
-                if pget(x, y+1) == 0 then if rnd(100) > 50 then pset(x, y+1, color_next) gen_map[x*128 + y + 2] = gen_next end end
+            index = x * 128 + y + 1
+            if pget(x, y) == color and gen_map[index] == gen then
+                if pget(x-1, y) == 0 then if rnd(100) > 50 then pset(x-1, y, color_next) gen_map[index - 128] = gen_next end end
+                if pget(x+1, y) == 0 then if rnd(100) > 50 then pset(x+1, y, color_next) gen_map[index + 128] = gen_next end end
+                if pget(x, y-1) == 0 then if rnd(100) > 50 then pset(x, y-1, color_next) gen_map[index - 1] = gen_next end end
+                if pget(x, y+1) == 0 then if rnd(100) > 50 then pset(x, y+1, color_next) gen_map[index + 1] = gen_next end end
             end
         end
     end
