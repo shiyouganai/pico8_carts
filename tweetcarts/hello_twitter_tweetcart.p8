@@ -2,7 +2,7 @@ pico-8 cartridge // http://www.pico-8.com
 version 18
 __lua__
 --hello_twitter
---tweet. copyright 2020 shiyouganai
+--tweet. (c) 2020 shiyouganai
 t="HELLO TWITTER!"
 c={}i=0 d={0,0}b=0.25 f=0
 ::_::

@@ -2,7 +2,7 @@ pico-8 cartridge // http://www.pico-8.com
 version 18
 __lua__
 --transmission
---anxiety. copyright 2020 shiyouganai
+--anxiety. (c) 2020 shiyouganai
 frame_count = 0
 color = 8
 color_next = 9

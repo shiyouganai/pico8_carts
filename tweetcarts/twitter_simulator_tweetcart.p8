@@ -2,7 +2,7 @@ pico-8 cartridge // http://www.pico-8.com
 version 18
 __lua__
 --twitter_simulator
---tweet. copyright 2020 shiyouganai
+--tweet. (c) 2020 shiyouganai
 n="@ENDLESS_NOISE"
 b="BLAH "
 z=circfill
