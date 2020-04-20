@@ -14,6 +14,6 @@ Note: Firefox's "Enhanced Tracking Protection" breaks the embedded tweets above 
 ---
 ### Cart Files (.p8.png) & Webplayer Links
 
-[![Transmission](/web_assets/transmission_tweetcart.p8.png)](/transmission_tweetcart.html)
-[![Twitter Simulator](/web_assets/twitter_simulator_tweetcart.p8.png)](/twitter_simulator_tweetcart.html)
-[![Hello Twitter](/web_assets/hello_twitter_tweetcart.p8.png)](/hello_twitter_tweetcart.html)
+[![Transmission](/web_assets/transmission_tweetcart.p8.png)](/pico8_carts/transmission_tweetcart.html)
+[![Twitter Simulator](/web_assets/twitter_simulator_tweetcart.p8.png)](/pico8_carts/twitter_simulator_tweetcart.html)
+[![Hello Twitter](/web_assets/hello_twitter_tweetcart.p8.png)](/pico8_carts/hello_twitter_tweetcart.html)
