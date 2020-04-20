@@ -1,1 +1,4 @@
 theme: jekyll-theme-minimal
+logo: /web_assets/web_icon_150x150.png
+title: PICO-8 Carts
+show_downloads: false
