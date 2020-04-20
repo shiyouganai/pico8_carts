@@ -9,7 +9,7 @@ Here are some examples of tweet-sized PICO-8 demos I have created, with a user-w
 
 ---
 
-Note: Firefox's "Enhanced Tracking Protection" breaks embedded tweets due to the presence of twitter's cross-site trackers in them, even though I set "data-dnt=true" when crafting the embed. If you are using it or another script blocker, you can click through to or use the local media below. The .p8.png carts all link to javascript webplayers too!
+Note: Firefox's "Enhanced Tracking Protection" breaks the embedded tweets above due to the presence of twitter's cross-site trackers in them, even though I set "data-dnt=true" when crafting the embed. If you are using it or another script blocker, you can click through to twitter or use the local media below. The .p8.png carts all link to javascript webplayers too!
 
 ---
 ### Cart Files (.p8.png) & Webplayer Links
